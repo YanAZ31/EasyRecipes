@@ -1,0 +1,127 @@
+/* Reset css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #F3E5D8;
+}
+section img{
+    max-width: 571px;
+    border-radius: 34px;
+   
+}
+h1{
+    color: #F23005;
+}
+section{
+   text-align: center;
+   padding: 5px;
+}
+section h1{
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+section p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card{
+    max-width: 660px;
+    margin: 0 auto;
+    background: #fff;
+    
+}
+.container{
+    max-width: 95%;
+    margin: auto;
+}
+
+.info{
+    background-color: #FF5C3A;
+    max-width: 560px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 22px;
+    margin: 16px auto;
+    
+}
+
+.info h3{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.info ul{
+    padding-left: 10%;
+    margin-top: 25px;
+    line-height: 24px;
+    
+}
+
+.ingredientes{
+    margin-top: 27px;
+    margin-bottom: 22px;
+    
+}
+
+.ingredientes h3{
+    color:#F23005;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.ingredientes ul{
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.preparacao h3{
+    color: #F23005;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.preparacao ol{
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.tabela-nutricao h3{
+    display: flex;
+    color: #F23005;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.tabela-nutricao{
+    margin-top: 23px;
+}
+.item{
+    color:#B9B6B3;
+    border-bottom: 1px solid;
+    border-color: #B9B6B3;
+    padding-bottom: 3px;
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 30px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.item i{
+    color:#F23005;
+    align-self: flex-start;
+    display: block;
+}
