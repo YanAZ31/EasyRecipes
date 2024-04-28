@@ -2,6 +2,17 @@
 /* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merienda:wght@300..900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    --principal: #F23005;
+    --secundario: #FF5C3A;
+    --background: #F3E5D8;
+    --branco: #fff;
+    --cinza: #B9B6B3;
+    --texto-principal: 2rem;
+    --texto-comum: 1rem;
+    --texto-medio:1.25rem
+  }
+
 .roboto{
     font-family: 'roboto';
 }
@@ -24,8 +35,8 @@
     box-sizing: border-box;
 }
 body{
-    background: #F3E5D8;
-    padding: 10px;
+    background: var(--background);
+    padding: 0.625rem;
 }
 section img{
     max-width: 571px;
@@ -38,27 +49,27 @@ section img{
     font-weight: lighter;
 }
 h1{
-    color: #F23005;
+    color: var(--principal);
 }
 section{
    text-align: center;
-   padding: 5px;
+   padding: 0.313rem;
 }
 section h1{
-    font-size: 32px;
+    font-size: var(--texto-principal);
     text-align: left;
     margin-bottom: 16px;
 }
 section p{
     text-align: left;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--texto-comum);
+    line-height: 1.5rem;
 }
 .card{
     max-width: 660px;
     margin: 0 auto;
-    background: #fff;
-    padding: 10px;
+    background: var(--branco);
+    padding: 0.625rem;
     border-radius: 35px;
 }
 .container{
@@ -67,79 +78,80 @@ section p{
 }
 
 .info{
-    background-color: #FF5C3A;
+    background-color: var(--secundario);
     max-width: 560px;
-    padding: 20px;
-    color: #fff;
+    padding: 1.25rem;
+    color: var(--branco);
     border-radius: 22px;
     margin: 16px auto;
     
 }
 
 .info h3{
-    font-size: 20px;
+    font-size: var(--texto-medio);
     font-weight: bold;
     display: flex;
 }
 
 .info ul{
     padding-left: 10%;
-    margin-top: 25px;
-    line-height: 24px;
+    margin-top: 1.563rem;
+    line-height: 1.5rem;
     
 }
 
 .ingredientes{
-    margin-top: 27px;
-    margin-bottom: 22px;
+    margin-top: 1.688rem;
+    margin-bottom: 1.375rem;
     
 }
 
 .ingredientes h3{
-    color:#F23005;
+    color: var(--principal);
     display: flex;
-    font-size: 20px;
+    font-size: var(--texto-medio);
     font-weight: bold;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .ingredientes ul{
-    line-height: 30px;
-    margin-left: 20px;
-    font-size: 20px;
+    line-height: 1.875;
+    margin-left: 1.25rem;
+    font-size: var(--texto-medio);
 
 }
 .preparacao h3{
-    color: #F23005;
+    color: var(--principal);
     display: flex;
-    font-size: 20px;
+    font-size: var(--texto-medio);
     font-weight: bold;
     line-height: 30px;
 }
 
 .preparacao ol{
-    line-height: 30px;
-    margin-left: 20px;
-    font-size: 20px;
+    line-height: 1.875rem;
+    margin-left: 1.25rem;
+    font-size: var(--texto-medio);
 }
+
 
 .tabela-nutricao h3{
     display: flex;
-    color: #F23005;
-    line-height: 30px;
+    color: var(--principal);
+    line-height: 1.875rem;
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: 1.375rem;
 }
 .tabela-nutricao{
-    margin-top: 23px;
+    margin-top: 1.438rem;
 }
 .item{
-    color:#B9B6B3;
+    color:var(--cinza);
     border-bottom: 1px solid;
-    border-color: #B9B6B3;
+    border-color: var(--cinza);
     padding: 3px 20px;
     margin-bottom: 13px;
-    font-size: 20px;
+    font-size: var(--texto-medio);
     line-height: 30px;
     /* text-align: center; */
     display: flex;
@@ -148,7 +160,7 @@ section p{
 }
 
 .item i{
-    color:#F23005;
+    color:var(--principal);
     /* align-self: flex-end; */
     display: block;
     /* width: 300px; */
@@ -166,5 +178,6 @@ section p{
         border-radius: 34px;
        
     }
+   
 
   }
